@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5892D69B1F39A091001083CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892D69A1F39A091001083CC /* main.m */; };
+		5892D69E1F39A091001083CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892D69D1F39A091001083CC /* AppDelegate.m */; };
+		5892D6A41F39A092001083CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5892D6A21F39A092001083CC /* Main.storyboard */; };
+		5892D6A91F39A092001083CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5892D6A71F39A092001083CC /* LaunchScreen.storyboard */; };
+		5892D6BE1F39A9B3001083CC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892D6BD1F39A9B3001083CC /* TableViewController.m */; };
+		5892D6C11F39A9CE001083CC /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892D6C01F39A9CE001083CC /* TableViewCell.m */; };
+		5892D6C31F39AC06001083CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5892D6C21F39AC06001083CC /* Assets.xcassets */; };
+		5892D6C61F39B9A6001083CC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892D6C51F39B9A6001083CC /* DetailViewController.m */; };
+		5892D6C91F39BA79001083CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5892D6C81F39BA79001083CC /* MapKit.framework */; };
+		5892D6CC1F39C5F8001083CC /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892D6CB1F39C5F8001083CC /* MapPin.m */; };
+		7885E83B200B911200D5DA7A /* Landmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 7885E83A200B911200D5DA7A /* Landmark.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5892D6961F39A091001083CC /* MoscowLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoscowLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5892D69A1F39A091001083CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5892D69C1F39A091001083CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5892D69D1F39A091001083CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5892D6A31F39A092001083CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5892D6A81F39A092001083CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5892D6AA1F39A092001083CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5892D6BC1F39A9B3001083CC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5892D6BD1F39A9B3001083CC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5892D6BF1F39A9CE001083CC /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		5892D6C01F39A9CE001083CC /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		5892D6C21F39AC06001083CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5892D6C41F39B9A6001083CC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5892D6C51F39B9A6001083CC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5892D6C81F39BA79001083CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5892D6CA1F39C5F8001083CC /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		5892D6CB1F39C5F8001083CC /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		7885E839200B911200D5DA7A /* Landmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landmark.h; sourceTree = "<group>"; };
+		7885E83A200B911200D5DA7A /* Landmark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Landmark.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5892D6931F39A091001083CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5892D6C91F39BA79001083CC /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5892D68D1F39A090001083CC = {
+			isa = PBXGroup;
+			children = (
+				5892D6981F39A091001083CC /* MoscowLandmarks */,
+				5892D6971F39A091001083CC /* Products */,
+				5892D6C71F39BA79001083CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5892D6971F39A091001083CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5892D6961F39A091001083CC /* MoscowLandmarks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5892D6981F39A091001083CC /* MoscowLandmarks */ = {
+			isa = PBXGroup;
+			children = (
+				7885E838200B90F600D5DA7A /* Model */,
+				7885E837200B8FB400D5DA7A /* Controller */,
+				7885E836200B8F9300D5DA7A /* View */,
+				5892D6AA1F39A092001083CC /* Info.plist */,
+				5892D6991F39A091001083CC /* Supporting Files */,
+			);
+			path = MoscowLandmarks;
+			sourceTree = "<group>";
+		};
+		5892D6991F39A091001083CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7885E831200B8F5A00D5DA7A /* AppDelegate */,
+				5892D6C21F39AC06001083CC /* Assets.xcassets */,
+				5892D69A1F39A091001083CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5892D6C71F39BA79001083CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5892D6C81F39BA79001083CC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7885E831200B8F5A00D5DA7A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5892D69C1F39A091001083CC /* AppDelegate.h */,
+				5892D69D1F39A091001083CC /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7885E832200B8F6300D5DA7A /* MapPin */ = {
+			isa = PBXGroup;
+			children = (
+				5892D6CA1F39C5F8001083CC /* MapPin.h */,
+				5892D6CB1F39C5F8001083CC /* MapPin.m */,
+			);
+			name = MapPin;
+			sourceTree = "<group>";
+		};
+		7885E833200B8F6D00D5DA7A /* TableVC */ = {
+			isa = PBXGroup;
+			children = (
+				5892D6BC1F39A9B3001083CC /* TableViewController.h */,
+				5892D6BD1F39A9B3001083CC /* TableViewController.m */,
+			);
+			name = TableVC;
+			sourceTree = "<group>";
+		};
+		7885E834200B8F7800D5DA7A /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5892D6BF1F39A9CE001083CC /* TableViewCell.h */,
+				5892D6C01F39A9CE001083CC /* TableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		7885E835200B8F8500D5DA7A /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				5892D6C41F39B9A6001083CC /* DetailViewController.h */,
+				5892D6C51F39B9A6001083CC /* DetailViewController.m */,
+			);
+			name = DetailVC;
+			sourceTree = "<group>";
+		};
+		7885E836200B8F9300D5DA7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7885E832200B8F6300D5DA7A /* MapPin */,
+				7885E834200B8F7800D5DA7A /* TableViewCell */,
+				5892D6A21F39A092001083CC /* Main.storyboard */,
+				5892D6A71F39A092001083CC /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7885E837200B8FB400D5DA7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7885E833200B8F6D00D5DA7A /* TableVC */,
+				7885E835200B8F8500D5DA7A /* DetailVC */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7885E838200B90F600D5DA7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7885E839200B911200D5DA7A /* Landmark.h */,
+				7885E83A200B911200D5DA7A /* Landmark.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5892D6951F39A091001083CC /* MoscowLandmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5892D6AD1F39A092001083CC /* Build configuration list for PBXNativeTarget "MoscowLandmarks" */;
+			buildPhases = (
+				5892D6921F39A091001083CC /* Sources */,
+				5892D6931F39A091001083CC /* Frameworks */,
+				5892D6941F39A091001083CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoscowLandmarks;
+			productName = LondonLandmarks;
+			productReference = 5892D6961F39A091001083CC /* MoscowLandmarks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5892D68E1F39A090001083CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Viktor Kachalov";
+				TargetAttributes = {
+					5892D6951F39A091001083CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MAVP5V2N7V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5892D6911F39A090001083CC /* Build configuration list for PBXProject "MoscowLandmarks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5892D68D1F39A090001083CC;
+			productRefGroup = 5892D6971F39A091001083CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5892D6951F39A091001083CC /* MoscowLandmarks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5892D6941F39A091001083CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5892D6A91F39A092001083CC /* LaunchScreen.storyboard in Resources */,
+				5892D6C31F39AC06001083CC /* Assets.xcassets in Resources */,
+				5892D6A41F39A092001083CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5892D6921F39A091001083CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5892D6CC1F39C5F8001083CC /* MapPin.m in Sources */,
+				5892D6C61F39B9A6001083CC /* DetailViewController.m in Sources */,
+				5892D69E1F39A091001083CC /* AppDelegate.m in Sources */,
+				5892D6C11F39A9CE001083CC /* TableViewCell.m in Sources */,
+				5892D6BE1F39A9B3001083CC /* TableViewController.m in Sources */,
+				5892D69B1F39A091001083CC /* main.m in Sources */,
+				7885E83B200B911200D5DA7A /* Landmark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5892D6A21F39A092001083CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5892D6A31F39A092001083CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5892D6A71F39A092001083CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5892D6A81F39A092001083CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5892D6AB1F39A092001083CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5892D6AC1F39A092001083CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5892D6AE1F39A092001083CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MAVP5V2N7V;
+				INFOPLIST_FILE = "$(SRCROOT)/MoscowLandmarks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorkachalov.msklandmarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5892D6AF1F39A092001083CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MAVP5V2N7V;
+				INFOPLIST_FILE = "$(SRCROOT)/MoscowLandmarks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorkachalov.msklandmarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5892D6911F39A090001083CC /* Build configuration list for PBXProject "MoscowLandmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5892D6AB1F39A092001083CC /* Debug */,
+				5892D6AC1F39A092001083CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5892D6AD1F39A092001083CC /* Build configuration list for PBXNativeTarget "MoscowLandmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5892D6AE1F39A092001083CC /* Debug */,
+				5892D6AF1F39A092001083CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5892D68E1F39A090001083CC /* Project object */;
+}
